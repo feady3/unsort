@@ -49,6 +49,20 @@
   - 実装や設定の参照: [MemUService.swift](file:///Users/sasamotokazutoyo/Documents/unsort/unsort/services/MemUService.swift)
   - 秘密情報は環境変数やビルド設定など安全な経路で管理してください
 
+## 起動方法
+- 事前準備
+  - macOSと最新のXcodeを用意してください
+- 起動手順
+  - Xcodeで本プロジェクト（unsort）を開きます
+  - Scheme／ターゲット「unsort」を選択します
+  - 実行先を選択します
+    - iOSアプリの場合: iOSシミュレータ（例: iPhone 15）または接続デバイス
+    - macOSアプリの場合: My Mac
+  - Run（⌘R）で起動します
+- MemUの設定（必要に応じて）
+  - APIキー／エンドポイントは環境変数またはXcodeのScheme設定で指定してください
+  - 実装の参照: [MemUService.swift](file:///Users/sasamotokazutoyo/Documents/unsort/unsort/services/MemUService.swift)
+
 ## 開発ガイド
 - ビルド／実行
   - Xcodeでプロジェクトを開き、ターゲットを選択してRunしてください
